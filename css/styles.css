@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+	vertical-align: baseline;
+	font-weight: inherit;
+	font-family: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+}
+/*/////////////////////TOP*/
+.navbar{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    border: 3px solid yellow;
+    margin-bottom: 30px;
+}
+.nav-tittle{
+    font-size: 50px;
+    border: 3px solid green;
+    margin-left: 220px;
+}
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    border: 3px solid red;
+    justify-content: space-around;
+    flex: 1;
+}
+li{
+    flex-direction: row;
+    list-style: none;
+    border: 3px solid fuchsia;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+    border: 3px solid firebrick;
+}
+.myprofile{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+.singout{
+    color: white;
+    background-color: cyan;
+    border: 3px black;
+    margin-left: 200px;
+    padding: 1px 7px;
+}
+
+/*//////////////////////MIDDLE*/
+
+.containermain{
+    display: flex;
+    align-items: center;
+    border: 3px solid orange;
+    /*background-color: lightblue;*/
+    font-family: 'Roboto', sans-serif;
+}
+.conatinerwhite{
+    border: 3px solid olive;
+    background-color: white;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 200px;
+    position: relative;
+}
+.headerimage{
+    border: 3px solid navy;
+    background-color: lightskyblue;
+    height: 60px;
+    vertical-align: top;
+    
+}
+#profile1{
+    border: 3px solid blueviolet;
+    height: 60px;
+    position: absolute;
+    top: 40px;
+    left: 30px;
+}
+.cardbody{
+    /*margin-top: 190px;*/
+    border: 3px solid rosybrown;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    text-align: justify;
+    flex: 1;
+    padding-left: 20px;
+}
+h1{
+    font-size: 30px;
+}
+h4{
+    font-size: 20px;
+}
+p{ 
+    font-size: 10px;
+}
+
+.hipertextrow{
+    flex-direction: row;
+    color: black;
+}
+
+#mapicon{
+    height: 20px;
+}
+
+#gearicon{
+    height: 15px;
+}
