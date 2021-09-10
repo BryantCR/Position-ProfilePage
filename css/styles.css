@@ -19,31 +19,31 @@
     color: white;
     font-family: 'Roboto', sans-serif;
     align-items: center;
-    border: 3px solid yellow;
+    /*border: 3px solid yellow;*/
     margin-bottom: 30px;
 }
 .nav-tittle{
-    font-size: 50px;
-    border: 3px solid green;
-    margin-left: 220px;
+    font-size: 30px;
+    /*border: 3px solid gray;*/
+    margin-left: 180px;
 }
 .nav-links{
     display: flex;
     flex-direction: row;
-    border: 3px solid red;
+    /*border: 3px solid red;*/
     justify-content: space-around;
     flex: 1;
 }
 li{
     flex-direction: row;
     list-style: none;
-    border: 3px solid fuchsia;
+    /*border: 3px solid fuchsia;*/
 }
-a{
+.navinf{
     text-decoration: none;
     color: white;
     font-weight: lighter;
-    border: 3px solid firebrick;
+    /*border: 3px solid firebrick;*/
 }
 .myprofile{
     font-weight: bold;
@@ -62,38 +62,43 @@ a{
 
 .containermain{
     display: flex;
-    align-items: center;
-    border: 3px solid orange;
+    /*align-items: center;*/
+    /*border: 3px solid red;*/
     /*background-color: lightblue;*/
     font-family: 'Roboto', sans-serif;
+    flex-direction:row;
+}
+.containerright{
+    flex-direction: column;
+    /*border: 3px solid red;*/
+    padding-left: 150px;
 }
 .conatinerwhite{
-    border: 3px solid olive;
+    /*border: 3px solid orange;*/
     background-color: white;
-    margin: 20px;
     display: flex;
     flex-direction: column;
-    width: 400px;
+    width: 300px;
     height: 200px;
-    position: relative;
+    margin-bottom: 30px;
+    border: 3px solid gray;
 }
 .headerimage{
-    border: 3px solid navy;
+    /*border: 3px solid navy;*/
     background-color: lightskyblue;
     height: 60px;
     vertical-align: top;
-    
 }
 #profile1{
-    border: 3px solid blueviolet;
+    border: 3px solid white;
     height: 60px;
-    position: absolute;
-    top: 40px;
-    left: 30px;
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 35px;
 }
 .cardbody{
-    /*margin-top: 190px;*/
-    border: 3px solid rosybrown;
+    margin-top: 25px;
+    /*border: 3px solid rosybrown;*/
     display: flex;
     flex-direction: column;
     align-items:flex-start;
@@ -105,21 +110,117 @@ h1{
     font-size: 30px;
 }
 h4{
-    font-size: 20px;
+    font-size: 15px;
 }
 p{ 
     font-size: 10px;
 }
 
-.hipertextrow{
+.hipertext1{
+    padding-top: 10px;
     flex-direction: row;
     color: black;
 }
 
 #mapicon{
-    height: 20px;
+    height: 10px;
 }
 
 #gearicon{
-    height: 15px;
+    height: 10px;
+}
+
+.educationinfo{
+    /*border: 3px solid forestgreen;*/
+    width: 300px;
+    height: 75px;
+}
+.headereducation{
+    /*border: 3px solid gold;*/
+    background-color:dimgrey;
+}
+.education{
+    font-size: 15px;
+    color: white;
+    margin-left: 25px;
+}
+.educationbody{
+    border: 3px solid gray;
+    padding-left: 20px;
+}
+.p1{
+    font-weight: bold;
+}
+.headerrequest{
+    background-color: dimgrey;
+    /*border: 3px solid orchid;*/
+    padding-top: 7px;
+    padding-bottom: 4px;
+}
+.connectioninfo{
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+.yourconnections2{
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.request{
+    font-size: 12px;
+    color: white;
+    text-align: center;
+}
+.userrequest{
+    border: 3px solid white;
+    height: 30px;
+    border-radius: 35px;
+    margin-right: 20px;
+}
+.aceptdeny{
+    border: 3px solid white;
+    height: 20px;
+    border-radius: 35px;
+    margin-top: 5px;
+}
+.requestbody{
+    border: 3px solid gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.requestofusers{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+.namesreq{
+    margin-top: 12px;
+    margin-right: 10px;
+}
+.yourconnections{
+    border: 3px solid white;
+    height: 30px;
+    border-radius: 35px;
+    margin-right: 20px;
+}
+.viewmore{
+    border: 3px solid gray;
+    padding-right: 100px;
+    font-family: 'Roboto', sans-serif;
+    color: navy;
+    font-size: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+span{
+    background-color:gray;
+    border-radius: 10px;
+    color: black;
+    font-weight: bold;
+    padding: 3px;
 }
